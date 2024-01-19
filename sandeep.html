@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+
+        #moving-heading {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #4CAF50;
+            font-weight: bold;
+            animation: moveText 2s linear infinite;
+        }
+
+        @keyframes moveText {
+            0% { transform: translateX(0); }
+            50% { transform: translateX(20px); }
+            100% { transform: translateX(0); }
+        }
+
+        #quote {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        #name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        #image {
+            max-width: 80%;
+            height: auto;
+            border-radius: 10px;
+            max-height: 80px; /* Set your desired max height */
+        }
+
+        #button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div id="moving-heading">Mohan Plastics</div>
+        <div id="quote">"I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times."</div>
+        <div id="name">- Sandeep</div>
+        <img id="image" src="coder.jpg" alt="Sandeep's Picture"><br>
+        <a id="button" href="https://lookerstudio.google.com/embed/reporting/101c8df1-f720-4044-9f2c-0b7b9b84f1b7/page/WPKRD">Start Your Work! Click Here</a>
+    </div>
+
+</body>
+</html>
